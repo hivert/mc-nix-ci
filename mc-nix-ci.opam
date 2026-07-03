@@ -4,6 +4,7 @@ version: "dev"
 
 homepage: "https://github.com/hivert/mc-nix-ci"
 dev-repo: "git+https://github.com/hivert/mc-nix-ci.git"
+bug-reports: "https://github.com/hivert/mc-nix-ci/issues"
 license: "MIT"
 
 synopsis: "Test of ci with docker-coq-action"
@@ -21,7 +22,8 @@ run-test: []
 depends: [
   "ocaml" {>= "4.05.0"}
   "coq" {(>= "8.20") | (= "dev")}
-  "coq-mathcomp-ssreflect" {(>= "2.4.0")}
+  "rocq-mathcomp-ssreflect" {(>= "2.5.0")}
+  "rocq-native"
 ]
 
 tags: [
