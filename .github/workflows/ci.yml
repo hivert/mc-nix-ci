@@ -29,8 +29,8 @@ jobs:
         # Browse URL: https://hub.docker.com/r/mathcomp/mathcomp#supported-tags
         # to get the list of supported tags in mathcomp/mathcomp
         image:
-	  - mathcomp/mathcomp:2.5.0-rocq-prover-9.0
-	  - mathcomp/mathcomp:2.5.0-rocq-prover-9.1
+          - mathcomp/mathcomp:2.5.0-rocq-prover-9.0
+          - mathcomp/mathcomp:2.5.0-rocq-prover-9.1
           - mathcomp/mathcomp:latest-rocq-prover-dev
       # at most 20 concurrent jobs per free account:
       # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#usage-limits
