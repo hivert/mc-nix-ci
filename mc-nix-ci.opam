@@ -22,7 +22,7 @@ run-test: []
 depends: [
   "ocaml" {>= "4.05.0"}
   "rocq-core" {(>= "9.0") | (= "dev")}
-  "rocq-mathcomp-ssreflect" {(>= "2.5.0")}
+  "rocq-mathcomp-boot" {(>= "2.5.0")}
   "rocq-native"
 ]
 
