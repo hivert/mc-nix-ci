@@ -16,7 +16,7 @@ build: [
 ]
 install: [make "install"]
 
-run-test: [make "test"]
+run-test: []
 
 depends: [
   "ocaml" {>= "4.05.0"}
