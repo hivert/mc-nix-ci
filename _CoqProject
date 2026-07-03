@@ -1,0 +1,3 @@
+-R theories Test
+native-compiler yes
+theories/test.v
