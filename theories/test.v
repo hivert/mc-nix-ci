@@ -1,6 +1,6 @@
 From HB Require Import structures.
 From Stdlib Require Import Znat BinIntDef Uint63 Ring Ring63.
-From mathcomp Require Import boot order.
+From mathcomp Require Import all_boot all_order.
 From mathcomp Require Import nmodule ssralg zmodp countalg finalg.
 
 Set Implicit Arguments.
